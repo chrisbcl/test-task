@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In order to correctly run the application you have to define 3 environment variables:
 
-REACT_APP_OAUTH_CLIENT_ID: Your Google OAuth Client ID
-REACT_APP_MAIN_USER: An username from github
-REACT_APP_SETTINGS_USER: Another username from github
+-   **REACT_APP_OAUTH_CLIENT_ID**: Your Google OAuth Client ID
+-   **REACT_APP_MAIN_USER**: An username from github
+-   **REACT_APP_SETTINGS_USER**: Another username from github
 
 A content example of the env file is present at the .env.example file.
 
