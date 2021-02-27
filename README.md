@@ -6,13 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Login page
 
-When the user isn't authenticated, the Login page is displayed:
+When the user isn't authenticated, the Login page is displayed with the authentication option available being the Google Authentication:
 
 ![login page screenshot](docs/login.png)
 
 ### Dashboard page
 
-After loggin in the dashboard will be displayed:
+After logging in the dashboard will be displayed:
 
 ![login page screenshot](docs/dashboard.png)
 
