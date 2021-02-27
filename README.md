@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Application flow
+
+### Login page
+
+When the user isn't authenticated, the Login page is displayed:
+
+![login page screenshot](docs/login.png)
+
+### Dashboard page
+
+After loggin in the dashboard will be displayed:
+
+![login page screenshot](docs/dashboard.png)
+
+### Settings page
+
+When the user clicks on the Settings button the content page will be replaced by the settings page:
+
+![login page screenshot](docs/settings.png)
+
+When the user logs out on the button on the top right of the header, it will be redirected to the Login page
+
 ## Environment variables
 
 In order to correctly run the application you have to define 3 environment variables:
