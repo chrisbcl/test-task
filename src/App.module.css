@@ -1,0 +1,25 @@
+.App {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+}
+
+.Loading {
+    grid-row: 1 / span 2;
+}
+
+@media (min-width: 1280px) {
+    .App {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 600px) {
+    .App {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

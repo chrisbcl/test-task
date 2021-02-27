@@ -1,0 +1,24 @@
+.DashboardPage {
+    padding-bottom: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(155 155 155 / 70%);
+}
+
+.Header {
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    background-color: gold;
+    border-bottom: 1px solid rgba(155, 155, 155, 0.47);
+}
+
+.Card {
+    max-width: 400px;
+}
+
+.CardMedia {
+    max-height: 400px;
+}
